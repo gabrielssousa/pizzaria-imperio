@@ -1,0 +1,106 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #171515;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F61818;
+    height: 100px;
+    margin-top: 60px;    
+}
+
+
+header h1 {
+    font-family: "Roboto Regular", "Roboto";
+    font-size: 80px;
+    color: #FFFFFF;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+#card-pizza {
+    background-color: #F61818;
+    height: 325px;
+    width: 400px;
+    color: #FFFFFF;
+}
+
+.imagem-pizza {
+    width: 400px; 
+    height: 200px;
+}
+
+.text {
+    margin-top: 5px;
+    margin-left: 14px;
+}
+
+.text h3 {
+    font-size: 20px;
+}
+
+.text p {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.btn-pedir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0B0F73;
+    padding: 10px 10px;
+    margin: 2px 5px;
+    width: 390px;
+}
+
+.btn-pedir h2 {
+    font-size: 20px;
+}
+
+
+footer {
+    background-color: #FFFFFF;
+    font-family: "Roboto Regular", "Roboto";
+    padding: 35px 20px;
+    height: 80px;
+}
+
+.container-footer {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+}
+
+.container-footer p {
+    font-size: 18px;
+}
+
+.links-footer {
+    display: flex;
+    padding: 0 50px;
+    gap: 100px;
+    list-style-type: none;
+}
+
+.link-footer {
+    font-size: 17.5px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+}
