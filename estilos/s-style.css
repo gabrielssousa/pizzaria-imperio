@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #171515;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F61818;
+    height: 100px;
+    margin-top: 60px;    
+}
+
+
+header h1 {
+    font-family: "Roboto Regular", "Roboto";
+    font-size: 80px;
+    color: #FFFFFF;
+}
+
+
+main h2 {
+    font-family: "Roboto Bold", "Roboto";
+    font-size: 70px;
+}
+
+main p {
+    text-align: justify;
+    font-family: "Roboto Regular", "Roboto";
+    font-size: 20px;
+}
+
+.textos {
+    margin: 50px;
+}
