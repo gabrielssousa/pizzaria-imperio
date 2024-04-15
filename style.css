@@ -1,0 +1,216 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+body {
+    background-color: #171515;
+}
+
+header {
+    background-color: #F61818;
+    font-family: "Roboto Regular", "Roboto";
+    padding: 5px;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    margin-top: 30px;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+
+header nav h2 {
+    font-size: 20px;
+}
+
+.links-barra {
+    display: flex;
+    padding: 0 50px;
+    gap: 100px;
+    list-style-type: none;
+}
+
+a {
+    font-size: 17.5px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+.oferta {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    color: #FFFFFF;
+}
+
+.card-oferta {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px;
+    height: 90vh;
+    width: 40%;
+    background-color: #C71A1A;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Poppins Bold', sans-serif;
+}
+
+.pizza-detalhes > h2 {
+    font-family: 'Poppins Regular', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.card-info {
+    display: flex;
+    justify-content: center;
+    margin-left: 14.5%;
+    width: 400px;
+    height: 60px;
+    background-color: #0B0F73;
+    opacity: 0.9;
+}
+
+.card-info h3 {
+    font-family: "Poppins Bold", sans-serif;
+    font-size: 30px;
+}
+
+.linhas-texto {
+    display: flex;
+}
+
+hr {
+    height: 0px;
+    width: 180px;
+    border-color: black;
+}
+
+.por-apenas {
+    font-family: 'Poppins Regular', sans-serif;
+    padding: 0 7px;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.valor-pizza {
+    margin-left: 5%;
+}
+
+.card-peca-ja {
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    font-family: "Poppins Bold", sans-serif;
+    font-size: 30px;
+    border-radius: 23px;
+    width:340px;
+    height: 80px;
+    background-color: #0B0F73;
+    opacity: 0.9;
+}
+
+.image-pizza {
+    width: 60%;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.boas-vindas {
+    color: white;
+    padding: 50px 30%;
+}
+
+.boas-vindas h4 {
+    font-family: "Poppins Bold", sans-serif;
+    font-size: 24px;
+}
+
+.boas-vindas p {
+    font-family: "Poppins Regular", sans-serif;
+    font-size: 23px;
+}  
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.textos h3 {
+    color: #CA2929;
+    font-family: "Poppins Regular", sans-serif;
+    font-size: 24px;
+}
+
+.textos h2 {
+    color: #FFFFFF;
+    font-family: "Poppins Bold", sans-serif;
+    font-size: 28px;
+}
+
+.servicos-pizzaria {
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+}
+
+#container-servico {
+    text-align: center;
+}
+
+#container-servico h3 {
+    font-family: "Poppins Bold", sans-serif;
+    font-size: 20px;
+}
+
+#container-servico p {
+    font-family: "Poppins Regular", sans-serif;
+    font-size: 18px;
+}
+
+.image {
+    width: 350px;
+    height: 350px;
+}
+
+footer {
+    background-color: #FFFFFF;
+    font-family: "Roboto Regular", "Roboto";
+    padding: 40px 20px;
+    height: 100px;
+}
+
+.container-footer {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+}
+
+.container-footer p {
+    font-size: 18px;
+}
+
+.links-footer {
+    display: flex;
+    padding: 0 50px;
+    gap: 100px;
+    list-style-type: none;
+}
+
+.link-footer {
+    font-size: 17.5px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+}
