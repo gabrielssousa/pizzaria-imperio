@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Império Pizzaria</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos/l-style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav>
+            <a href="../index.html"><h2 class="titulo">Império Pizzaria</h2></a>
+            <ul class="links-barra">
+                <li><a class="link" href="../pages/cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main-login">
+        <div class="container-login">
+            <h1>Login</h1>
+
+            <form class="form-login" id="form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="input" placeholder="Email">
+                <span class="span-required" id="email-error">Informe um email válido.</span>
+                
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" class="input" placeholder="Senha">
+                <span class="span-required" id="senha-error">Informe uma senha válida.</span>
+                
+                <button type="submit" class="btn-login">Entrar</button>
+            </form>
+
+            <div class="footer-login">
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="../scrpits/l-script.js"></script>
+</body>
+</html>

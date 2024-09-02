@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Império Pizzaria</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos/cdt-style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav>
+            <a href="../index.html"><h2 class="titulo">Império Pizzaria</h2></a>
+            <ul class="links-barra">
+                <li><a class="link" href="../pages/login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main-cadastro">
+        <div class="container-cadastro">
+            <h1>Cadastro</h1>
+
+            <form class="form" id="form">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome"  id="nome" class="input" placeholder="Nome Completo">
+                <span class="span-required" id="nome-error">Informe um nome válido.</span>
+                
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" class="input" placeholder="Email">
+                <span class="span-required" id="email-error">Informe um email válido.</span>
+
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" class="input" placeholder="Senha">
+                <span class="span-required" id="senha-error">Informe uma senha válida.</span>
+
+                <label for="confirma-senha">Confirmar senha:</label>
+                <input type="password" name="confirma-senha"  id="confirma-senha" class="input" placeholder="Confirme a Senha">
+                <span class="span-required" id="confirma-senha-error">A senha não é a mesma de cima ou está vazia.</span>
+
+                <button type="submit" class="btn">Cadastrar</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="../scrpits/cdt-script.js"></script>
+</body>
+</html>

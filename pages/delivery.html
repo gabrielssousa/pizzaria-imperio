@@ -28,18 +28,23 @@
         
             <br>
 
-            <div class="inputs">
-                <input type="text" name="txt-cep" class="input" id="txt-cep" placeholder="Insira seu CEP para te enviarmos seu pedido.">
-
-                <br>
-
-                <input type="number" name="num" class="input" id="num" placeholder="Informe  número da sua residência.">
-            </div>
+           <form id="form">
+            <input type="text" name="txt-cep" class="input" id="txt-cep" placeholder="Insira seu CEP para te enviarmos seu pedido.">
+            <span class="span-required" id="cep-error">Informe um CEP válido com 8 dígitos.</span>
 
             <br>
 
+            <input type="number" name="num" class="input" id="num" placeholder="Informe o número da sua residência.">
+            <span class="span-required" id="num-error">Informe um número válido.</span>
+
+            
+            <br>
+
             <button type="submit" class="btn-confirmar">CONFIRMAR</button>
+           </form>
         </div>
     </main>
+
+    <script src="../scrpits/d-script.js"></script>
 </body>
 </html>

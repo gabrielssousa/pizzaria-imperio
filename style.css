@@ -41,6 +41,14 @@ a {
     text-decoration: none;
 }
 
+.cadastro-login {
+    display: flex;
+}
+
+.cadastro-login li {
+    margin-right: 20px;
+}
+
 .oferta {
     display: flex;
     flex-direction: row;

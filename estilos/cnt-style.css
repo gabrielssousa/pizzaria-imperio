@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #171515;
+    background-color: white;
 }
 
 header {
@@ -14,13 +14,13 @@ header {
     align-items: center;
     background-color: #F61818;
     height: 100px;
-    margin-top: 60px;    
+    margin-top: 20px;    
 }
 
 
 header h1 {
     font-family: "Roboto Regular", "Roboto";
-    font-size: 80px;
+    font-size: 60px;
     color: #FFFFFF;
 }
 
@@ -28,24 +28,27 @@ main {
     text-align: start;
 }
 
+.span-required {
+    display: none;
+    margin: 0px 20px;
+    font-size: 15px;
+    font-family: "Roboto Regular", "Roboto";
+}
+
 .input {
     padding: 20px;
-    margin: 50px 20px;
-    background-color: #F61818;
+    margin: 20px 20px 5px 20px;
     width: 500px;
     height: 50px;
-    border-radius: 20px;
-    border: 0;
+    border: 1px solid black;
     font-family: "Roboto Regular", "Roboto";
     font-size: 20px;
 }
 
 .input-area {
-    background-color: #F61818;
-    margin-left: 25px;
+    margin: 20px 20px 0px 20px;
     padding: 20px;
-    border-radius: 20px;
-    border: 0;
+    border: 1px solid black;
     font-family: "Roboto Regular", "Roboto";
     font-size: 20px;
 }
@@ -54,8 +57,12 @@ main {
     font-family: "Roboto Regular", "Roboto";
     background-color: #F61818;
     font-size: 20px;
+    margin: 25px 20px;
     padding: 17px;
-    margin-left: 440px;
     width: 236px;
     border-radius: 10px;
+}
+
+.input.invalid, .input-area.invalid {
+    border-color: red;
 }
